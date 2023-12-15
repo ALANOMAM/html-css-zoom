@@ -2,13 +2,12 @@
     box-sizing: border-box;
     padding:0;
     margin:0;
-    border:1px solid red;
 }
 
 
 .screen{
     height: 100vh;
-    border-color: blue;
+    background-color: black;
 }
 
 .speaker-view{
@@ -32,7 +31,6 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    margin-bottom: 20px;
     max-height: 100vh;
     overflow: auto;
 }
@@ -58,12 +56,18 @@
 
 /*nav start*/
 nav{
+    width: 100%;
     display: flex;
     justify-content: space-between;
     background-color: rgba(34, 34, 34, 1);
+    position: fixed;
+    bottom: 0vh;
+    z-index: 2;
 }
 
 .div1,.div2,.div3{
+    margin-top: 10px;
+    margin-bottom: 10px;
     display: flex;
     align-items: center;
     gap:10px;
