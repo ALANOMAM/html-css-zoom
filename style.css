@@ -10,6 +10,12 @@
     height: 100vh;
 }
 
+.image-box{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-left: auto;
+}
+
 
 
 
@@ -18,10 +24,41 @@
 nav{
     display: flex;
     justify-content: space-between;
+    background-color: rgba(34, 34, 34, 1);
 }
 
 .div1,.div2,.div3{
     display: flex;
+    align-items: center;
+    gap:10px;
+    color: white;
+}
+
+nav .element{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.fa-share-from-square{
+    color:rgba(78, 211, 0, 1);
+}
+
+nav i{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+ nav .fa-chevron-up{
+    font-size: 15px;
+} 
+
+
+.div3{
+    padding: 10px;
+    color: red;
+    background-color:rgba(74, 74, 74, 1) ;
 }
 
 
