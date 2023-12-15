@@ -11,6 +11,20 @@
     border-color: blue;
 }
 
+.speaker-view{
+    display:flex;
+    justify-content: flex-end;
+    gap:10px;
+    
+}
+
+.speaker-view div{
+    padding: 5px;
+    background-color: gray;
+    border-radius: 5px;
+    color: white;
+}
+
 .image-box{
     max-width:1300px;
     margin-left: auto;
