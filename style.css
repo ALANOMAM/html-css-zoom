@@ -12,9 +12,14 @@
 
 .speaker-view{
     display:flex;
-    justify-content: flex-end;
     gap:10px;
-    
+    position: fixed;
+    justify-content: flex-end;
+    width: 100%;
+    top:0px;
+    padding-bottom: 20px;
+    z-index: 1; 
+    background-color:black;
 }
 
 .speaker-view div{
@@ -31,8 +36,10 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    max-height: 100vh;
-    overflow: auto;
+    overflow:auto;
+    height: 85vh;
+
+
 }
 
 .image{
