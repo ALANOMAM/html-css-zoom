@@ -37,7 +37,9 @@
     justify-content: space-between;
     flex-wrap: wrap;
     overflow:auto;
-    height: 85vh;
+    height: 100vh;
+    padding-bottom: 100px; /*quello che contiene le immagini sopra la navbar sotto*/
+    padding-top: 50px; /* quello che dà lo spazio tra le immagini e la barra sopra*/
 
 
 }
